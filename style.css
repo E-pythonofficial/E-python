@@ -15,8 +15,8 @@
 }
 
 :root{
-    --bg-color: #130c0c;
-    --pri-bg-color: #100505;
+    --bg-color: #000;
+    --pri-bg-color: #000;
     --sec-bg-color: #A82548;
     --text-color: #ffffff;
     --sec-text-color: #fff;
