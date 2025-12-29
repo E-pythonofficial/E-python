@@ -364,7 +364,9 @@ span{
 }
 
 /* One of my works */
-.works{
+.works {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     min-height: auto;
     justify-content: center;
@@ -374,46 +376,49 @@ span{
     padding: 2%;
 }
 
-.works .sm-txt{
+.works .sm-txt {
     font-size: 16px;
     text-decoration: underline;
 }
 
-.works .sm-txt:hover{
+.works .sm-txt:hover {
     color: var(--lightpink-text-color);
 }
 
-.display-works{
-    display: flex;
-    gap: 3rem;
-}
-
-.works-piece{
+.display-works {
     display: flex;
     flex-direction: column;
+    gap: 3rem;
+    align-items: stretch;
 }
 
-.works h1{
-    margin: 1 0 1rem;
+.works-piece {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.works h1 {
+    margin: 1rem 0 1rem;
     font-size: var(--big-font);
 }
 
-.works h2{
-    padding: .5rem;
+.works h2 {
+    padding: 0.5rem;
 }
 
-.works span{
+.works span {
     color: var(--pink-text-color);
     font-size: var(--small-font);
     font-family: 'Lora';
 }
 
-.works a{
+.works a {
     color: #fff;
     font-size: 1.9rem;
 }
 
-.works p{
+.works p {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     padding: 1.5%;
@@ -890,7 +895,27 @@ section:nth-child(odd) .animate.scroll,
     .navbar a.active{
     color: var(--pinkoverlay-color);
     }
+    .display-works {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .works-piece {
+        flex: 1 1 calc(50% - 0.75rem);
+        min-width: 200px;
+    }
+
+    .works p {
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+
+    .works a {
+        font-size: 1.5rem;
+    }
 }
+
 
 @media (max-width: 520px) {
     html{
