@@ -2,15 +2,15 @@
 Portfolio Website
 A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Features smooth animations, a dark theme with pink accents, and a fully functional mobile-friendly design.
 
-Features
-Responsive Design — Fully optimized for desktop, tablet, and mobile devices
-Smooth Animations — Text animations, hover effects, and scroll-triggered animations
-Dark Theme — Professional dark background with pink accent colors
-Sticky Header — Navigation bar that sticks to the top on scroll
-Multiple Sections — Home, About, Works, Education, Skills, and Contact
-Mobile Navigation — Hamburger menu for mobile devices
-Contact Form — Functional form section for user inquiries
-Social Links — Links to social media profiles with hover effects
+**Features**
+Responsive Design: Fully optimized for desktop, tablet, and mobile devices;
+Smooth Animations : Text animations, hover effects, and scroll-triggered animations;
+Dark Theme : Professional dark background with pink accent colors;
+Sticky Header : Navigation bar that sticks to the top on scroll;
+Multiple Sections : Home, About, Works, Education, Skills, and Contact;
+Mobile Navigation : Hamburger menu for mobile devices;
+Contact Form : Functional form section for user inquiries;
+Social Links : Links to social media profiles with hover effects;
 
 
 Sections
