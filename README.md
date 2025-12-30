@@ -97,7 +97,7 @@ Customize content — Update text, images, and links to match your portfolio
 Deploy — Upload to a hosting service (GitHub Pages, Netlify, Vercel, etc.)
 
 
-Support
-For questions or issues, please review the CSS comments and code structure. Each section is well-organized and documented.
+**Support
+For questions or issues, please review the CSS comments and code structure. Each section is well-organized and documented.**
 
 
